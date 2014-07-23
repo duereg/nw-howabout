@@ -8,8 +8,6 @@
 <img src="http://s21.postimg.org/kpvajtm7r/Screen_Shot_2013_10_24_at_4_30_36_PM.png" width=240 />
 <img src="http://s24.postimg.org/vkd750z45/Screen_Shot_2013_10_24_at_4_47_16_PM.png" width=240 />
 
-Go to [here](http://listena.recom.io/main/#/chooseOne) and sign up for a free account with ListenA to make this work.
+Go [here](http://listena.recom.io/main/#/chooseOne) and sign up for a free account with ListenA to make this work.
 
 https://www.facebook.com/xissysnd/posts/10202218332877527
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xissy/nw-howabout/trend.svg)](https://bitdeli.com/free "Bitdeli Badge")
