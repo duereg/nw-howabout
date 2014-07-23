@@ -12,13 +12,13 @@
     "free"
   ],
   "window": {
-    "title": "이거어때?",
+    "title": "What do you think?",
     "toolbar": false,
     "frame": true,
-    "width": 400,
+    "width": 500,
     "height": 600,
     "position": "center",
-    "min_width": 400,
+    "min_width": 500,
     "min_height": 600
   },
   "webkit": {

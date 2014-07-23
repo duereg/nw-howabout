@@ -36,7 +36,7 @@ howaboutApp.controller 'MainController', [
       if lyricsHtml?
         $('#lyrics').html lyricsHtml
       else
-        $('#lyrics').text '이 곡은 가사가 없습니다.'
+        $('#lyrics').text 'Could not find lyrics for this song.'
 
 
     $scope.onPlayerLoaded = ->
@@ -91,7 +91,7 @@ howaboutApp.controller 'MainController', [
     $scope.onClickAddLast = (track) ->
       playlistSharedService.addLast track
 
-    
+
     saveDialog = $('#saveDialog')
     saveDialog.change (e) ->
       saveFilePath = $(this).val()
@@ -100,7 +100,7 @@ howaboutApp.controller 'MainController', [
 
     $scope.onClickDownload = (track) ->
       $scope.savingTrack = track
-      
+
       saveDialog.val null
       saveDialog.attr 'nwsaveas', "#{track.trackTitle} - #{track.artistName}.mp3"
       saveDialog.trigger 'click'
@@ -108,7 +108,7 @@ howaboutApp.controller 'MainController', [
 
     $scope.onSubmitSearch = (searchString) ->
       if not searchString? or searchString.length < 2
-        $('#modalBodyMessage').text '검색어가 너무 짧습니다.'
+        $('#modalBodyMessage').text 'Query is too short.'
         $('#alertDialog').modal 'show'
         return
 
@@ -119,7 +119,7 @@ howaboutApp.controller 'MainController', [
         searchString: searchString
       $scope.isTrackLoading = true
       $(document).scrollTop 0
-      
+
       $scope.tracks = []
 
       tracks = Track.search
